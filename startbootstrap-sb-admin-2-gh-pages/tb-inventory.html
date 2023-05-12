@@ -189,7 +189,11 @@
                     <!-- DataTales Example -->
                     <div class="card shadow">
                         <div class="card-header">
-                            <h6 class="m-0 font-weight-bold text-primary">Stock Item</h6>
+                            
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <h6 class="m-0 font-weight-bold text-primary">Stock Item</h6>
+                                <a asp-controller="Truck" asp-action="Create" href="add_inventory.html"><button class="btn btn-primary">Create</button></a>
+                            </div>
                         </div>
                         <div class="card-body">
                             <!-- <div class="table-responsive"> -->
@@ -198,6 +202,7 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
+                                            <th>Stock Item ID</th>
                                             <th>Name</th>
                                             <th>Quantity</th>
                                             <th>Actions</th>
@@ -205,6 +210,7 @@
                                     </thead>
                                     <tbody class="table-border-bottom-0">
                                         <tr>
+                                            <td>1</td>
                                             <td>1</td>
                                             <td>Light Bulb</td>
                                             
@@ -225,7 +231,8 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>2</td>
                                             <td>Cable</td>
                                             
                                             <td>500</td>
@@ -245,7 +252,8 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>3</td>
+                                            <td>3</td>
                                             <td>Switch</td>
                                             
                                             <td>200</td>
@@ -265,7 +273,8 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>4</td>
+                                            <td>4</td>
                                             <td>Conduit</td>
                                            
                                             <td>200</td>
