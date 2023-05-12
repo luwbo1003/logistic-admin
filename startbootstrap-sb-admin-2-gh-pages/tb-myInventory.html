@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Trucks</title>
+    <title>SB Admin 2 - My Inventory</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -53,27 +53,14 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                ADMIN
+                Staffs
             </div>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item ">
-                <a class="nav-link" href="tb-staff.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Staffs</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tb-inventory.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Inventory</span></a>
-            </li>
-            <!-- Nav Item - Tables -->
             <li class="nav-item active">
-                <a class="nav-link" href="tb-truck.html">
+                <a class="nav-link" href="tb-myInventory.html">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Trucks</span></a>
+                    <span>My Inventory</span></a>
             </li>
 
             <!-- Divider -->
@@ -199,20 +186,16 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>TruckID</th>
-                                            <th>Model</th>
-                                            <th>License-Plate</th>
-                                            <th>Driver</th>
-                                            <th>Actions</th>
+                                            <th>Stock Item In Trucks</th>
+                                            <th>Quantity</th>
+                                            <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr data-toggle="collapse" data-target="#collapse1" class="parent">
                                             <td>1</td>
-                                            <td>1</td>
-                                            <td>VOLVO</td>
-                                            <td>ABC-111</td>
-                                            <td>Timothee</td>
+                                            <td>Dây điện</td>
+                                            <td>20</td>
                                             <td>
                                                 <div>
                                                     <ul class="navbar-nav ml-auto">
@@ -220,7 +203,7 @@
                                                             <a class="nav-link bx bx-dots-vertical-rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             </a>
                                                             <div class="dropdown-menu dropdown-menu-right animated--fade-in" aria-labelledby="navbarDropdown">
-                                                                <a class="dropdown-item" href="edit_trucks.html">Edit</a>
+                                                                <a class="dropdown-item" href="edit_staff_inventory.html">Edit</a>
                                                                 <a class="dropdown-item" href="#">Delete</a>
                                                             </div>
                                                         </li>
@@ -228,74 +211,41 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td colspan="8">
-                                                <div id="collapse1" class="collapse">
-                                                    <table class="table table-primary">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>#</th>
-                                                                <th>Stock Item</th>
-                                                                <th>Quantity</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>Cable</td>
-                                                                <td>3</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr data-toggle="collapse" data-target="#collapse2" class="parent">
+                                        <tr data-toggle="collapse" data-target="#collapse1" class="parent">
                                             <td>1</td>
-                                            <td>1</td>
-                                            <td>Freightliner</td>
-                                            <td>FGH-556</td>
-                                            <td>kylie Jenner</td>
+                                            <td>Phích cắm</td>
+                                            <td>25</td>
                                             <td>
-
+                                                <div>
                                                     <ul class="navbar-nav ml-auto">
                                                         <li class="nav-item dropdown">
                                                             <a class="nav-link bx bx-dots-vertical-rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             </a>
                                                             <div class="dropdown-menu dropdown-menu-right animated--fade-in" aria-labelledby="navbarDropdown">
-                                                                <a class="dropdown-item" href="edit_trucks.html">Edit</a>
+                                                                <a class="dropdown-item" href="#">Edit</a>
                                                                 <a class="dropdown-item" href="#">Delete</a>
                                                             </div>
                                                         </li>
                                                     </ul>
+                                                </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td colspan="8">
-                                                <div id="collapse2" class="collapse">
-
-                                                    <table class="table table-primary">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>#</th>
-                                                                <th>Stock Item In Trucks</th>
-                                                                <th>Quantity</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>Cable</td>
-                                                                <td>3</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>Cable</td>
-                                                                <td>3</td>
-                                                               
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                        <tr data-toggle="collapse" data-target="#collapse1" class="parent">
+                                            <td>1</td>
+                                            <td>Công tắc</td>
+                                            <td>30</td>
+                                            <td>
+                                                <div>
+                                                    <ul class="navbar-nav ml-auto">
+                                                        <li class="nav-item dropdown">
+                                                            <a class="nav-link bx bx-dots-vertical-rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-right animated--fade-in" aria-labelledby="navbarDropdown">
+                                                                <a class="dropdown-item" href="#">Edit</a>
+                                                                <a class="dropdown-item" href="#">Delete</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </td>
                                         </tr>
